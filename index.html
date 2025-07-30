@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Videy.co - Late Night Vibes</title>
+<style>
+    body {
+      background-color: #00FFFF; /* Cyan */
+      font-family: Arial, sans-serif;
+      color: #800080; /* Purple */
+      text-align: center;
+      padding: 30px; /* Reduced initial padding */
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh; /* Ensure body takes full viewport height */
+      justify-content: center;
+      align-items: center;
+    }
+    h1 {
+      margin-bottom: 20px;
+      font-size: 2em; /* Slightly larger heading */
+    }
+    figure {
+      margin: 0 0 20px 0; /* Adjust margin for better spacing */
+    }
+    img {
+      max-width: 100%; /* Ensure image scales down */
+      height: auto; /* Maintain aspect ratio */
+      display: block;
+      margin: auto;
+      border-radius: 8px; /* Slightly rounded corners for the image */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    }
+    figcaption {
+      margin-top: 10px;
+      font-style: italic;
+      color: #551A8B; /* Darker purple for caption */
+    }
+    .button-container {
+      display: flex;
+      flex-direction: column; /* Stack buttons on small screens */
+      gap: 15px; /* Space between buttons */
+      margin-top: 20px;
+    }
+    a {
+      display: inline-block;
+      padding: 15px 30px;
+      background-color: #DDA0DD; /* Plum */
+      color: #000000; /* Black */
+      text-decoration: none;
+      font-size: 1.1em; /* Slightly larger font size for links */
+      border-radius: 8px;
+      transition: background-color 0.3s ease, color 0.3s ease;
+      font-weight: bold;
+    }
+    a:hover {
+      background-color: #0056b3; /* Darker blue on hover */
+      color: white;
+    }
+
+    /* Media Queries for responsiveness */
+    @media (min-width: 768px) { /* For tablets and desktops */
+      body {
+        padding: 50px;
+      }
+      h1 {
+        font-size: 2.5em;
+      }
+      .button-container {
+        flex-direction: row; /* Buttons side-by-side on larger screens */
+        gap: 25px;
+      }
+      a {
+        font-size: 1.2em;
+        padding: 18px 35px; /* Slightly larger buttons */
+      }
+    }
+
+    @media (max-width: 480px) { /* For small mobile devices */
+      body {
+        padding: 20px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+      a {
+        padding: 12px 25px;
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Welcome to Videy.co!</h1>
+  <figure>
+    <img src="7zXeOGIF1.mp4.jpg" alt="A captivating still from a video titled 'Late night vibes'."/>
+    <figcaption>'Late night vibes'</figcaption>
+  </figure>
+  <div class="button-container">
+    <a href="https://brexit-web.github.io/7zXeOGIF1.mp4" target="_blank">Go to Video</a>
+    <a href="https://xcdnvidey.github.io" target="_blank">More Video</a>
+  </div>
+</body>
+</html>
